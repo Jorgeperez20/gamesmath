@@ -42,6 +42,7 @@
 }
 
 html {
+  padding: auto 0;
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -10259,5 +10260,28 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+
+.display-inline {
+	display: inline;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.div {
+	text-align: center;
+}
+
+.box-center {
+	width:50%;
+	padding:8px;
+	margin:auto;
+}
+
+.box{
+	width: 150px !important;
+	height: 50px !important;
 }
 /*# sourceMappingURL=bootstrap.css.map */
